@@ -1,0 +1,80 @@
+requirement gathering and analysis(analyze user stories and raised queris if any)
+
+test plan and test strategy(high level info will be there like scope of proj resouce ETA test plan has low level document)
+scope(in scope fucntionalities to be tested and out of scope)
+approach(agile,watermodel)
+env(whic env to use)
+role and responsibilities(people involved in testing,BA,test)
+entry/exit criteria
+execution schedule(ETA or timeline)
+risk((during time crunch we can tell the risk(eg.4 test env) or low priority TC )
+issues(open issues)
+dependacies(which components for the testing like ods sync)
+
+env setup(link to URL,applications)
+
+test design(Test cases)
+
+defect reporting and closure(test summary report like net)
+
+DFLC
+new->open-> assigned->investigation->ready for retest->retest in progress->
+passed->done
+new after logging new defect
+after review from leads move to open
+assigned to dev
+ready for retest(picked by QA changed by dev)
+retest in progress(QA workin status)
+done(resolved)
+
+if defect out of scope or complex defect post discussion with BA moved to deferred to next sprint
+if invalid defect then rejected
+
+
+
+Test methodologies
+waterfall
+agile
+agile cermonies
+sprint planinng(PO,dev,test,BA,all stackholders)
+daily scrum(issue/concerns,updates,blockers etc)
+sprint review(stakholder,BA,update the stackholder about the test activity progress)
+retrospective(after completing of sprint what went well what could do improved)
+
+
+
+
+test data,steps,accounts used,env,exp ,actual,timestap evidence,priority,severity
+
+test scenario:
+id,desc,tc id, tc desc
+tc doc- ts id, tc id,desc, step, expect
+
+
+login func
+user valid valid  invalid invalid blank blank   blank 
+pws  valid invalid valid invalid  valid invalid blank
+
+file compressor
+verify if file size is reduced
+verify if all file formats are accepted
+verify if error is shown if no file is uploaded
+verify if contents in file is same or corrupted
+verify if file is downloaded
+verify if file is able to open
+verify if file is same as requested format
+verfiy if file diff format as requested
+verify if converted file is able to be uploaded
+verify if converted file can be reduced
+
+
+
+search fucntionlity in a field
+
+look for accpetance criterio
+after retest execute blocked 
+
+
+
+
+

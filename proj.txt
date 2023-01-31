@@ -1,0 +1,88 @@
+sql 
+c19 analysis
+Skills used: Joins, CTE's, , Windows Functions, Aggregate Functions,
+ Creating Views,
+
+-- Total Cases vs Total Deaths vs infected rate
+Total Cases vs Population
+
+-- Countries with Highest Infection Rate compared to Population
+
+
+-- Countries with Highest Death Count per Population
+
+ BREAKING THINGS DOWN BY CONTINENT country wise deaths
+
+
+-- Total Population vs Vaccinated ppl
+
+
+PPP covid lending
+amount approved for laon,
+-
+---Top 20 Industries that received the PPP Loans in 2021
+
+-States and Territories which were approved in 2021
+
+Demographics for PPP(loan amount apprvoed for different races) 
+in dollars
+
+How much of the PPP Loans of 2021 have been fully forgiven(completed)
+
+
+--In which month was the highest amount given out by the SBA to 
+borrowers
+
+census
+,avg(growth) avg_growth by state;
+avg population
+avg sex ratio
+avg literacy rate
+top/bottom 3 state showing highest growth ratio
+population vs area(previos  population/area vs current pop by area)
+
+output top 3 districts from each state with highest literacy rate
+ window function
+
+
+python
+
+aamzon sales used data cleaning is null merge function
+sales by year,month day
+plotted using bar graph line graph and 
+top 5 customerwise sales given using pie chart
+
+metflix
+movies with highest rating,
+most favoured genre,
+best diretor
+best actor based on ration and popularity
+top 10 shows
+total relaesed by year
+
+zomato
+countries with most transaction india uk and us
+most of the rating were between 2.5 to 3.4
+ratiings comparison if most of the rationg providing were positive(excellent)'
+countries with highest/lowest rationg (brazil and india)
+countries with no delivery option (india and UAE)
+
+top 5 cities in pie chart
+
+
+
+guessitmate
+1
+18-40
+2
+get data of people buy thaat beers sold from different pubs that is market size
+3
+density,income based,central region (less travel),less operations cost,
+goverment restriction based,night lift like place
+
+4
+order per day,tables booked per day,operations cost,ratings,reviews,memberships,
+social merdia interests,entry cost
+
+5
+own answer

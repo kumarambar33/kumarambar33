@@ -1,0 +1,30 @@
+https://platform.stratascratch.com/coding/514-marketing-campaign-success-advanced?code_type=3
+
+select * from mc;
+#ref
+/*
+with cte as (
+select uid, cat,
+       min(cat) over (partition by uid) as fp ,
+       pid, 
+       min(cat)  over(partition by uid, pid) 
+       as first_purchase_date_of_product from mc
+       order by uid, cat
+)
+select count(distinct uid) 
+    from cte  
+    where fp != first_purchase_date_of_product 
+    ;*/
+select uid,cat,pid,min(cat) over(partition by uid) fp,
+ min(cat) over(partition by uid,pid)fpp from mc
+ order by uid,cat;
+with cte as
+(
+select uid,cat,pid,min(cat) over(partition by uid) fp,
+ min(cat) over(partition by uid,pid)fpp from mc
+ order by uid,cat
+)
+select distinct(uid) as uid from cte where fp!=fpp
+#group by uid,pid
+#having count(distinct cat)=1
+order by uid;
